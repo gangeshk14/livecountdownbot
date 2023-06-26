@@ -15,9 +15,9 @@ API_HASH='030b1acdef3948bd3afbe373dc124dcf'
 BOT_TOKEN='6050100447:AAGGxgChOKIc9T_d11BLNNQvAMZWKekL04M'
 app = Client(
     "Timer Bot",
-    api_id=os.environ.get('API_ID', None),
-    api_hash=os.environ.get('API_HASH', None),
-    bot_token=os.environ.get("BOT_TOKEN", None),
+    api_id=23468841,
+    api_hash='030b1acdef3948bd3afbe373dc124dcf',
+    bot_token='6050100447:AAGGxgChOKIc9T_d11BLNNQvAMZWKekL04M',
 )
 
 
