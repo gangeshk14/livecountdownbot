@@ -10,7 +10,9 @@ from constants import CALLBACK_DICT, ERROR_CMD_MSG, ZERO_TIME_DELTA, TIMER_FORMA
 
 load_dotenv()
 storage = Storage()
-
+API_ID=23468841
+API_HASH='030b1acdef3948bd3afbe373dc124dcf'
+BOT_TOKEN='6050100447:AAGGxgChOKIc9T_d11BLNNQvAMZWKekL04M'
 app = Client(
     "Timer Bot",
     api_id=os.environ.get('API_ID', None),
